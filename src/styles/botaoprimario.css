@@ -13,3 +13,15 @@
   --radius: 30px
 }
 
+.botaoprimario {
+    background-color: var(--cor-primaria);
+    color: var(--cor-background-secundario);
+    font-weight: bold;
+    border: none;
+    border-radius: var(--radius);
+}
+
+
+.botaoprimario:hover{
+    background-color: #5b1ed4;
+}

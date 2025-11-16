@@ -13,3 +13,14 @@
   --radius: 30px
 }
 
+.header {
+    border-bottom: 2px solid var(--cor-detalhes);
+}
+
+.link {
+ color: var(--cor-texto-secundario);
+}
+
+.link:hover {
+ color: var(--cor-primaria);
+}
