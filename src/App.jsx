@@ -7,6 +7,7 @@ import './styles/App.css'
 import Header from './components/header/header'
 import Botaoprimario from './components/botao_primario/botaoprimario'
 import Botaosecundario from './components/botao_secundario/botaosecundario'
+import Step from './components/step/Step'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Header/>
 
       <main>
+
         <section className="hero container-fluid py-5">
           <div className="row justify-content-center text-center">
 
@@ -31,7 +33,46 @@ function App() {
 
           </div>
         </section>
-        
+
+        <section className="container my-5 p-4 bg-white rounded-4 shadow">
+          <div className="row align-items-center">
+
+            <div className="col-md-5 text-center mb-4 mb-md-0">
+              <img
+                src="./assets/how-illustration.png"
+                alt="Ilustração"
+                className="img-fluid"
+                style={{ maxWidth: "330px" }}
+              />
+            </div>
+
+            <div className="col-md-7">
+
+                <Step
+                number="01"
+                text="Responda a algumas perguntas sobre seus interesses, suas habilidades e seus valores."
+                />
+
+                <Step
+                number="02"
+                text="O teste é dividido em 4 partes."
+                />
+
+                <Step
+                number="03"
+                text="No total, são 14 perguntas, nas quais você pode selecionar de 1 a 3 opções de respostas."
+                />
+
+                <Step
+                number="04"
+                text="E no final você vai ter um guia para saber qual curso escolher e qual profissão seguir na vida."
+                />
+
+            </div>
+
+          </div>
+        </section>
+
       </main>
     </>
   )
