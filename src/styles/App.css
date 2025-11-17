@@ -1,0 +1,66 @@
+#root {
+  --cor-primaria: #6933D5;
+  --cor-secundario: #2C70D3;
+  --cor-texto-primario: #1E293B;
+  --cor-texto-secundario: #000000;
+
+  --cor-background-principal: #F6F6F6;
+  --cor-background-secundario: #F8F9FB;
+
+  --cor-detalhes: #cfcfcf;
+  --cor_sombra: #A6A6A6;
+
+  --radius: 30px
+}
+
+.titulo-hero {
+  color: var(--cor-texto-principal);
+  size: 50px;
+}
+
+.hero {
+  position: relative;
+  background: var(--cor-background-principal);
+  overflow: hidden;
+}
+
+/* Círculo esquerdo */
+.hero::before {
+  content: "";
+  position: absolute;
+  left: -120px;
+  width: 350px;
+  height: 350px;
+  background: #D3B22C;
+  filter: blur(120px);
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  right: -120px;
+  width: 350px;
+  height: 350px;
+  background: #00FFCC;
+  filter: blur(120px);
+  opacity: 0.2;
+  z-index: 0;
+}
+
+/* Conteúdo fica por cima */
+.hero > .row {
+  position: relative;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .hero::before,
+  .hero::after {
+    width: 250px;
+    height: 250px;
+    filter: blur(100px);
+    opacity: 0.6;
+  }
+}

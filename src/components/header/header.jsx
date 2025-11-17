@@ -6,7 +6,7 @@ import Botaoprimario from '../botao_primario/botaoprimario';
 function Header() {
 
   return (
-    <header className="header container-fluid position-fixed py-3 shadow-sm bg-white">
+    <header className="header container-fluid py-3 shadow-sm bg-white">
       <div className="container d-flex align-items-center justify-content-between">
 
         <h2 className="fw-bold m-0">Logotipo</h2>
