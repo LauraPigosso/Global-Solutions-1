@@ -22,5 +22,8 @@
 
 
 .botaosecundario:hover{
-    background-color: #5b1ed4;
+    background-color: transparent;
+    color: #5b1ed4;
+    border: 2px solid #5b1ed4;
 }
+

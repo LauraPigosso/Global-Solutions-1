@@ -15,17 +15,17 @@
 
 .titulo-hero {
   color: var(--cor-texto-principal);
-  size: 50px;
+  size: 60px;
 }
 
-.hero {
+main {
   position: relative;
   background: var(--cor-background-principal);
   overflow: hidden;
 }
 
 /* Círculo esquerdo */
-.hero::before {
+main::before {
   content: "";
   position: absolute;
   left: -120px;
@@ -33,12 +33,12 @@
   height: 350px;
   background: #D3B22C;
   filter: blur(120px);
-  opacity: 0.2;
+  opacity: 0.8;
   z-index: 0;
 }
 
 /* Círculo direito */
-.hero::after {
+main::after {
   content: "";
   position: absolute;
   right: -120px;
@@ -46,7 +46,7 @@
   height: 350px;
   background: #00FFCC;
   filter: blur(120px);
-  opacity: 0.2;
+  opacity: 0.8;
   z-index: 0;
 }
 

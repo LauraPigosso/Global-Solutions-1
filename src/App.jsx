@@ -8,6 +8,7 @@ import Header from './components/header/header'
 import Botaoprimario from './components/botao_primario/botaoprimario'
 import Botaosecundario from './components/botao_secundario/botaosecundario'
 import Step from './components/step/Step'
+import CardBox from './components/CardBox/Cardbox'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,14 +40,16 @@ function App() {
 
             <div className="col-md-5 text-center mb-4 mb-md-0">
               <img
-                src="./assets/how-illustration.png"
-                alt="Ilustração"
+                src="../public/how-illustration.png"
+                alt="Ilustração de um homem branco com um nootbook apoiado na coxas fazendo um teste vocacional"
                 className="img-fluid"
                 style={{ maxWidth: "330px" }}
               />
             </div>
 
             <div className="col-md-7">
+
+                <h2 className='fw-bold fs-1'>Instruções iniciais</h2>
 
                 <Step
                 number="01"
@@ -72,6 +75,46 @@ function App() {
 
           </div>
         </section>
+
+        <section>
+          <div className="container my-5">
+            <div className="row align-items-center">
+              <h2 className='text-center'>O mercado está se transformando. E você  já pode estar sendo afetado por isso.</h2>
+              <p className='text-center'>Entenda, em números, como as mudanças tecnológicas estão influenciando as decições profissionais - e porque a orientação é mais necessária do que nunca.</p>
+                  
+                <CardBox
+                  icon="/assets/icons/drone.png"
+                  title="Mais comum do que você pensa"
+                  description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
+                  source="Fonte: TechRadar"
+                />
+
+                <CardBox
+                icon="/assets/icons/drone.png"
+                title="Mais comum do que você pensa"
+                description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
+                source="Fonte: TechRadar"
+              />
+
+                <CardBox
+                icon="/assets/icons/drone.png"
+                title="Mais comum do que você pensa"
+                description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
+                source="Fonte: TechRadar"
+              />
+
+                <CardBox
+                icon="/assets/icons/drone.png"
+                title="Mais comum do que você pensa"
+                description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
+                source="Fonte: TechRadar"
+              />
+
+              </div>
+            </div>
+        </section>
+
+        
 
       </main>
     </>
