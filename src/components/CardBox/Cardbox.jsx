@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function CardBox({ icon, title, description, source }) {
+export default function CardBox({ icon, title, description, source, link }) {
   return (
     <div className="col-12 col-md-6 col-lg-3 mb-4">
       <div className="card shadow-sm p-3 h-100 rounded-4">
@@ -17,10 +17,10 @@ export default function CardBox({ icon, title, description, source }) {
         </div>
 
         {/* Texto */}
-        <p className="mb-3">{description}</p>
+        <p className="mb-3 fs-4">{description}</p>
 
         {/* Fonte */}
-        <small className="text-primary fw-semibold">{source}</small>
+        <a className="link nav-link" href={link}>{source}</a>
       </div>
     </div>
   );

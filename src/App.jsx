@@ -19,7 +19,7 @@ function App() {
 
       <main>
 
-        <section className="hero container-fluid py-5">
+        <section className="hero container py-5">
           <div className="row justify-content-center text-center">
 
             <div className="col-12 col-md-10 col-lg-8">
@@ -76,45 +76,76 @@ function App() {
           </div>
         </section>
 
-        <section>
-          <div className="container my-5">
-            <div className="row align-items-center">
-              <h2 className='text-center'>O mercado está se transformando. E você  já pode estar sendo afetado por isso.</h2>
-              <p className='text-center'>Entenda, em números, como as mudanças tecnológicas estão influenciando as decições profissionais - e porque a orientação é mais necessária do que nunca.</p>
-                  
-                <CardBox
-                  icon="/assets/icons/drone.png"
-                  title="Mais comum do que você pensa"
-                  description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
-                  source="Fonte: TechRadar"
-                />
-
-                <CardBox
-                icon="/assets/icons/drone.png"
+        <section className="container my-5"> 
+          <div className="row align-items-center">
+            <h2 className='text-center fw-bold fs-1'>O mercado está se transformando. E você  já pode estar sendo afetado por isso.</h2>
+            <p className='text-center fs-4'>Entenda, em números, como as mudanças tecnológicas estão influenciando as decições profissionais - e porque a orientação é mais necessária do que nunca.</p>
+                
+            <CardBox
+                icon="../public/Vector.png"
                 title="Mais comum do que você pensa"
                 description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
+                link="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
                 source="Fonte: TechRadar"
-              />
+            />
 
-                <CardBox
-                icon="/assets/icons/drone.png"
-                title="Mais comum do que você pensa"
-                description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
-                source="Fonte: TechRadar"
-              />
+            <CardBox
+              icon="../public/Vector.png"
+              title="Mais comum do que você pensa"
+              description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
+              link="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
+              source="Fonte: TechRadar"
+            />
 
-                <CardBox
-                icon="/assets/icons/drone.png"
-                title="Mais comum do que você pensa"
-                description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
-                source="Fonte: TechRadar"
-              />
+            <CardBox
+              icon="../public/Vector.png"
+              title="Mais comum do que você pensa"
+              description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
+              link="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
+              source="Fonte: TechRadar"
+            />
 
-              </div>
-            </div>
+            <CardBox
+              icon="../public/Vector.png"
+              title="Mais comum do que você pensa"
+              description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
+              link="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
+              source="Fonte: TechRadar"
+              />
+          </div>
         </section>
 
-        
+        <section className="container my-5">
+          <div className="row align-items-center">
+
+            <div className="col-md-7">
+              <h2 className='fw-bold fs-1'>Sobre o método</h2>
+
+              <ul class="ms-3">
+                <li class="fs-4 mb-2">Mapeie como você sente, age e pensa</li>
+                <li class="fs-4 mb-2">Tenha clareza do seu perfil comportamental</li>
+                <li class="fs-4 mb-2">Linguagem simples e acessível</li>
+                <li class="fs-4 mb-2">Veja instantaneamente o seu resultado</li>
+                <li class="fs-4 mb-2">Receba indicações atualizadas de formações e carreiras profissionais reais</li>
+              </ul>
+
+               <div className="d-flex gap-3 mt-3">
+                <Botaoprimario text="Quero ver meu perfil"/>
+                <Botaosecundario text="Contatar um mentor"/>
+              </div>
+            </div>
+
+            <div className="col-md-5 text-center mb-4 mb-md-0">
+              <img
+                src="../public/ilustracao-menina.png"
+                alt="Ilustração de um homem branco com um nootbook apoiado na coxas fazendo um teste vocacional"
+                className="img-fluid"
+                style={{ maxWidth:"456px"}}
+              />
+            </div>
+
+          </div>
+        </section>
 
       </main>
     </>

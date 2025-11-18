@@ -11,7 +11,7 @@ function Header() {
 
         <h2 className="fw-bold m-0">Logotipo</h2>
 
-        <nav>
+        <nav className='Navegacao'>
           <ul className="nav gap-4">
             <li className="nav-item">
               <a className="link nav-link" href="#">Início</a>

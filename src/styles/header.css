@@ -24,3 +24,9 @@
 .link:hover {
  color: var(--cor-primaria);
 }
+
+@media (max-width: 1065px) {
+    .Navegacao {
+        display: none;
+    }
+}
