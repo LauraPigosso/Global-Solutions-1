@@ -14,19 +14,16 @@ function Header() {
         <nav className='Navegacao'>
           <ul className="nav gap-4">
             <li className="nav-item">
-              <a className="link nav-link" href="#">Início</a>
+              <a className="link nav-link" href="#inicio">Início</a>
             </li>
             <li className="nav-item">
-              <a className="link nav-link" href="#">Sobre o teste</a>
+              <a className="link nav-link" href="#Instrucoes">Instruções</a>
             </li>
             <li className="nav-item">
-              <a className="link nav-link" href="#">Depoimentos</a>
+              <a className="link nav-link" href="#Dados">Dados do mercado</a>
             </li>
             <li className="nav-item">
-              <a className="link nav-link" href="#">Section 4</a>
-            </li>
-            <li className="nav-item">
-              <a className="link nav-link" href="#">Section 5</a>
+              <a className="link nav-link" href="#Sobre">Sobre nossa solução</a>
             </li>
           </ul>
         </nav>

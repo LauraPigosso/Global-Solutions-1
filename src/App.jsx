@@ -19,7 +19,7 @@ function App() {
 
       <main>
 
-        <section className="hero container py-5">
+        <section id='inicio' className="hero container py-5">
           <div className="row justify-content-center text-center">
 
             <div className="col-12 col-md-10 col-lg-8">
@@ -35,7 +35,7 @@ function App() {
           </div>
         </section>
 
-        <section className="container my-5 p-4 bg-white rounded-4 shadow">
+        <section id='Instrucoes' className="container my-5 p-4 bg-white rounded-4 shadow">
           <div className="row align-items-center">
 
             <div className="col-md-5 text-center mb-4 mb-md-0">
@@ -76,7 +76,7 @@ function App() {
           </div>
         </section>
 
-        <section className="container my-5"> 
+        <section id='Dados' className="container my-5"> 
           <div className="row align-items-center">
             <h2 className='text-center fw-bold fs-1'>O mercado está se transformando. E você  já pode estar sendo afetado por isso.</h2>
             <p className='text-center fs-4'>Entenda, em números, como as mudanças tecnológicas estão influenciando as decições profissionais - e porque a orientação é mais necessária do que nunca.</p>
@@ -115,7 +115,7 @@ function App() {
           </div>
         </section>
 
-        <section className="container my-5">
+        <section id='Sobre' className="container my-5">
           <div className="row align-items-center">
 
             <div className="col-md-7">
@@ -138,10 +138,41 @@ function App() {
             <div className="col-md-5 text-center mb-4 mb-md-0">
               <img
                 src="../public/ilustracao-menina.png"
-                alt="Ilustração de um homem branco com um nootbook apoiado na coxas fazendo um teste vocacional"
+                alt="Ilustração de uma mulher negra com um caderno nas mãos fazendo anotações"
                 className="img-fluid"
-                style={{ maxWidth:"456px"}}
+                style={{ width:"300px"}}
               />
+            </div>
+
+          </div>
+        </section>
+
+        <section className="container my-5">
+          <div className="row align-items-center">
+
+            <div className="col-md-5 text-center mb-4 mb-md-0">
+              <img
+                src="../public/ilustracao-menino.png"
+                alt="Ilustração de um homem negro com uma das mãos no queixo e com um ponto de interrogação ao lado"
+                className="img-fluid"
+                style={{ width:"300px"}}
+              />
+            </div>
+
+            <div className="col-md-7">
+              <h2 className='fw-bold fs-1'>O Proxímo Passo é para você que...</h2>
+
+              <ul class="ms-3">
+                <li class="fs-4 mb-2">Está terminando o ensino médio e não sabe qual profissão escolher.</li>
+                <li class="fs-4 mb-2">Trabalha para ajudar a família, mas quer algo melhor para o futuro.</li>
+                <li class="fs-4 mb-2">Quer uma carreira estável, com crescimento e que não seja ultrapassada pela IA.</li>
+                <li class="fs-4 mb-2">Fica ansioso só de pensar em tomar a decisão errada.</li>
+              </ul>
+
+               <div className="d-flex gap-3 mt-3">
+                <Botaoprimario text="Quero ver meu perfil"/>
+                <Botaosecundario text="Contatar um mentor"/>
+              </div>
             </div>
 
           </div>
