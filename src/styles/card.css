@@ -9,3 +9,9 @@
 .link {
   color: #6933D5;
 }
+
+@media (max-width: 768px) {
+  .link {
+    font-size: 14px; /* tamanho mobile */
+  }
+}

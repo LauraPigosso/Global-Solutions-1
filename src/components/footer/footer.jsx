@@ -32,7 +32,7 @@ export default function Footer() {
             <i className="bi bi-linkedin"></i>
           </a>
           <a href="#" className="text-secondary fs-5">
-            <i className="bi bi-twitter"></i> 
+            <i className="bi bi-twitter-x"></i> 
           </a>
         </div>
 

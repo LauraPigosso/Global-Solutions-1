@@ -70,3 +70,8 @@ main::after {
   padding-top: 5rem;
 }
 
+@media (max-width: 768px) {
+  .texto-responsivo {
+    font-size: 18px; 
+  }
+}

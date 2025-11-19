@@ -22,8 +22,8 @@ export default function Accordion({ id, titulo, texto }) {
 
       </h2>
 
-      <div id={id} className="accordion-collapse collapse fs-4 " data-bs-parent="#accordionExample">
-        <p className="accordion-body"> {texto} </p>
+      <div id={id} className="texto-responsivo accordion-collapse collapse fs-4 " data-bs-parent="#accordionExample">
+        <p className=" texto-responsivo accordion-body"> {texto} </p>
       </div>
 
     </div>

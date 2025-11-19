@@ -27,3 +27,8 @@
     border: 2px solid #5b1ed4;
 }
 
+@media (max-width: 768px) {
+  .texto-responsivo {
+    font-size: 18px; /* tamanho mobile */
+  }
+}

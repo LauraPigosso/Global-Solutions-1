@@ -15,8 +15,8 @@ export default function CardBox({ icon, title, description, descricaoicone, sour
           />
           <h6 className="card-titulo fw-bold mb-0 fs-5 ">{title}</h6>
         </div>
-        <p className="mb-3 fs-5">{description}</p>
-        <a className="link nav-link" href={link}>{source}</a>
+        <p className="mb-3 texto-responsivo fs-5">{description}</p>
+        <a className="link text-decoration-underline nav-link" href={link}>{source}</a>
       </div>
     </div>
   );

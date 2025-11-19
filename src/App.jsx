@@ -30,7 +30,7 @@ function App() {
           <div className="row justify-content-center text-center">
 
             <div className="col-12 col-md-10 col-lg-8">
-              <p className=" subtitulo fs-4 mb-2">Proxíma Parada: Conheça o teste vocacional do futuro </p>
+              <p className="subtitulo fs-4 mb-2">Proxíma Parada: Conheça o teste vocacional do futuro </p>
               <h1 className="titulo-hero fw-bold mb-2">Projete um futuro promissor.</h1>
               <h1 className="titulo-hero fw-bold mb-2">Aqui. Agora.</h1>
               <div className="d-flex gap-3 justify-content-center mt-3">
@@ -202,11 +202,11 @@ function App() {
               <h2 className='fw-bold fs-1 text-center text-lg-start'>Sobre o método</h2>
 
               <ul className="ms-3 list-unstyled text-center text-lg-start">
-                <li className="fs-4 mb-2">• Mapeie como você sente, age e pensa</li>
-                <li className="fs-4 mb-2">• Tenha clareza do seu perfil comportamental</li>
-                <li className="fs-4 mb-2">• Linguagem simples e acessível</li>
-                <li className="fs-4 mb-2">• Veja instantaneamente o seu resultado</li>
-                <li className="fs-4 mb-2">• Receba indicações atualizadas de formações e carreiras profissionais reais</li>
+                <li className="fs-4 mb-2 texto-responsivo">• Mapeie como você sente, age e pensa</li>
+                <li className="fs-4 mb-2 texto-responsivo">• Tenha clareza do seu perfil comportamental</li>
+                <li className="fs-4 mb-2 texto-responsivo">• Linguagem simples e acessível</li>
+                <li className="fs-4 mb-2 texto-responsivo">• Veja instantaneamente o seu resultado</li>
+                <li className="fs-4 mb-2 texto-responsivo">• Receba indicações atualizadas de formações e carreiras profissionais reais</li>
               </ul>
 
                <div className="d-flex gap-3 mt-3">
@@ -242,10 +242,10 @@ function App() {
               <h2 className='fw-bold fs-1 text-center text-lg-start'>A Proxíma Jornada é para você que...</h2>
 
               <ul className="ms-3 list-unstyled text-center text-lg-start">
-                <li className="fs-4 mb-2">• Está terminando o ensino médio e não sabe qual profissão escolher.</li>
-                <li className="fs-4 mb-2">• Trabalha para ajudar a família, mas quer algo melhor para o futuro.</li>
-                <li className="fs-4 mb-2">• Quer uma carreira estável, com crescimento e que não seja ultrapassada pela IA.</li>
-                <li className="fs-4 mb-2">• Fica ansioso só de pensar em tomar a decisão errada.</li>
+                <li className="fs-4 mb-2 texto-responsivo">• Está terminando o ensino médio e não sabe qual profissão escolher.</li>
+                <li className="fs-4 mb-2 texto-responsivo">• Trabalha para ajudar a família, mas quer algo melhor para o futuro.</li>
+                <li className="fs-4 mb-2 texto-responsivo">• Quer uma carreira estável, com crescimento e que não seja ultrapassada pela IA.</li>
+                <li className="fs-4 mb-2 texto-responsivo">• Fica ansioso só de pensar em tomar a decisão errada.</li>
               </ul>
 
                <div className="d-flex gap-3 mt-3">
