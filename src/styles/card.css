@@ -1,5 +1,5 @@
 .card {
-  min-height: 300px;
+  min-height: 400px;
 }
 
 .card-titulo {
@@ -14,4 +14,8 @@
   .link {
     font-size: 14px; /* tamanho mobile */
   }
+
+  .card {
+  min-height: 300px;
+}
 }
