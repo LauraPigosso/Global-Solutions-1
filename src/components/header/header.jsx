@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // IMPORTANTE para o menu funcionar
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
 import '../../styles/header.css';
+
+import logo_icone from '../../../public/Logo-icone.png'
 
 import Botaoprimario from '../botao_primario/botaoprimario';
 
@@ -11,7 +13,7 @@ function Header() {
 
         <a className="navbar-brand d-none d-lg-block" href="#inicio">
           <img
-            src="../../public/Logo-icone.png"  
+            src={logo_icone}  
             alt="Logotipo da Proxíma Jornada. A logo é um icone de um livro aberto com setas saindo do meio do livro"
             className="img-fluid"
             style={{ height: "50px" }} 

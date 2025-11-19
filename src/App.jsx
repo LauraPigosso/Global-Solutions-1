@@ -4,6 +4,11 @@ import viteLogo from '/vite.svg'
 
 import './styles/App.css'
 
+import menino from '../public/Ilustracao-menino.png'
+import menina from '../public/ilustracao-menina.png'
+import vector from '../public/Vector.png'
+import howillustration from '../public/how-illustration.png'
+
 import Header from './components/header/header'
 import Botaoprimario from './components/botao_primario/botaoprimario'
 import Botaosecundario from './components/botao_secundario/botaosecundario'
@@ -42,7 +47,7 @@ function App() {
 
             <div className="col-md-5 text-center mb-4 mb-md-0">
               <img
-                src="../public/how-illustration.png"
+                src={howillustration}
                 alt="Ilustração de um homem branco com um nootbook apoiado na coxas fazendo um teste vocacional"
                 className="img-fluid"
                 style={{ maxWidth: "330px" }}
@@ -84,15 +89,16 @@ function App() {
             <p className='text-center fs-4'>Entenda, em números, como as mudanças tecnológicas estão influenciando as decições profissionais - e porque a orientação é mais necessária do que nunca.</p>
                 
             <CardBox
-                icon="../public/Vector.png"
+                icon={vector}
                 title="Mais comum do que você pensa"
                 descricaoicone="Icone de chapeu de formando"
+                description='82% dos jovens tem dificuldades em escolher uma carreira profissional'
                 link="https://blog.unigrancapital.com.br/82-dos-jovens-tem-dificuldades-em-escolher-uma-carreira-profissional/"
                 source="Fonte: CMOV"
             />
 
             <CardBox
-              icon="../public/Vector.png"
+              icon={vector}
               title="19.8% dos jovens não estudam nem trabalham"
               descricaoicone="Icone de chapeu de formando"
               description="19,8% dos jovens não estavam ocupados nem estudando nem trabalhando."
@@ -101,7 +107,7 @@ function App() {
             />
 
             <CardBox
-              icon="../public/Vector.png"
+              icon={vector}
               title="42% sem conhecimento de suas oportunidades"
               descricaoicone="Icone de chapeu de formando"
               description="Pesquisa aponta que 42% dos jovens desconhecem educação profissional"
@@ -110,7 +116,7 @@ function App() {
             />
 
             <CardBox
-              icon="../public/Vector.png"
+              icon={vector}
               title="A maioria dos jovens estão pessimistas"
               descricaoicone="Icone de chapeu de formando"
               description="57% dos jovens formandos de 2025 estão pessimistas sobre o início de suas carreiras."
@@ -126,12 +132,12 @@ function App() {
             <div className=" order-2 order-md-1 col-md-7">
               <h2 className='fw-bold fs-1'>Sobre o método</h2>
 
-              <ul class="ms-3">
-                <li class="fs-4 mb-2">Mapeie como você sente, age e pensa</li>
-                <li class="fs-4 mb-2">Tenha clareza do seu perfil comportamental</li>
-                <li class="fs-4 mb-2">Linguagem simples e acessível</li>
-                <li class="fs-4 mb-2">Veja instantaneamente o seu resultado</li>
-                <li class="fs-4 mb-2">Receba indicações atualizadas de formações e carreiras profissionais reais</li>
+              <ul className="ms-3">
+                <li className="fs-4 mb-2">Mapeie como você sente, age e pensa</li>
+                <li className="fs-4 mb-2">Tenha clareza do seu perfil comportamental</li>
+                <li className="fs-4 mb-2">Linguagem simples e acessível</li>
+                <li className="fs-4 mb-2">Veja instantaneamente o seu resultado</li>
+                <li className="fs-4 mb-2">Receba indicações atualizadas de formações e carreiras profissionais reais</li>
               </ul>
 
                <div className="d-flex gap-3 mt-3">
@@ -142,7 +148,7 @@ function App() {
 
             <div className=" order-1 order-md-2 col-md-5 text-center mb-4 mb-md-0">
               <img
-                src="../public/ilustracao-menina.png"
+                src={menina}
                 alt="Ilustração de uma mulher negra com um caderno nas mãos fazendo anotações"
                 className="img-fluid"
                 style={{ width:"300px"}}
@@ -157,7 +163,7 @@ function App() {
 
             <div className="col-md-5 text-center mb-4 mb-md-0">
               <img
-                src="../public/ilustracao-menino.png"
+                src={menino}
                 alt="Ilustração de um homem negro com uma das mãos no queixo e com um ponto de interrogação ao lado"
                 className="img-fluid"
                 style={{ width:"300px"}}
@@ -167,11 +173,11 @@ function App() {
             <div className="col-md-7">
               <h2 className='fw-bold fs-1'>A Proxíma Jornada é para você que...</h2>
 
-              <ul class="ms-3">
-                <li class="fs-4 mb-2">Está terminando o ensino médio e não sabe qual profissão escolher.</li>
-                <li class="fs-4 mb-2">Trabalha para ajudar a família, mas quer algo melhor para o futuro.</li>
-                <li class="fs-4 mb-2">Quer uma carreira estável, com crescimento e que não seja ultrapassada pela IA.</li>
-                <li class="fs-4 mb-2">Fica ansioso só de pensar em tomar a decisão errada.</li>
+              <ul className="ms-3">
+                <li className="fs-4 mb-2">Está terminando o ensino médio e não sabe qual profissão escolher.</li>
+                <li className="fs-4 mb-2">Trabalha para ajudar a família, mas quer algo melhor para o futuro.</li>
+                <li className="fs-4 mb-2">Quer uma carreira estável, com crescimento e que não seja ultrapassada pela IA.</li>
+                <li className="fs-4 mb-2">Fica ansioso só de pensar em tomar a decisão errada.</li>
               </ul>
 
                <div className="d-flex gap-3 mt-3">

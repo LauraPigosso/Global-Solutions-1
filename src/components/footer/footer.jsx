@@ -2,6 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../../styles/header.css';
 
+import logo_nome from '../../../public/Logo-Nome.png'
+
 
 export default function Footer() {
   return (
@@ -11,7 +13,7 @@ export default function Footer() {
         <div className="d-flex align-items-center gap-2 mb-2 mb-md-0">
 
           <img
-            src="../../public/Logo-nome.png"
+            src={logo_nome}
             alt="icone da Proxima Parada com o nome do projeto ao lado. O icone é um livro aberto com setas saindo do meio do livro"
             style={{ width: "100px", height: "40px" }}
           />
