@@ -9,6 +9,8 @@ import Botaoprimario from './components/botao_primario/botaoprimario'
 import Botaosecundario from './components/botao_secundario/botaosecundario'
 import Step from './components/step/Step'
 import CardBox from './components/CardBox/Cardbox'
+import Accordion from './components/Acordeao/acordeao'
+import Footer from './components/footer/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -84,33 +86,33 @@ function App() {
             <CardBox
                 icon="../public/Vector.png"
                 title="Mais comum do que você pensa"
-                description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
-                link="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
-                source="Fonte: TechRadar"
+                description="82% dos jovens tem dificuldades em escolher uma carreira profissional"
+                link="https://blog.unigrancapital.com.br/82-dos-jovens-tem-dificuldades-em-escolher-uma-carreira-profissional/"
+                source="Fonte: CMOV"
             />
 
             <CardBox
               icon="../public/Vector.png"
-              title="Mais comum do que você pensa"
-              description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
+              title="19.8% dos jovens não estudam nem trabalham"
+              description="19,8% dos jovens não estavam ocupados nem estudando nem trabalhando."
               link="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
-              source="Fonte: TechRadar"
+              source="Fonte: IBGE"
             />
 
             <CardBox
               icon="../public/Vector.png"
-              title="Mais comum do que você pensa"
-              description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
-              link="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
-              source="Fonte: TechRadar"
+              title="42% sem conhecimento de suas oportunidades"
+              description="Pesquisa aponta que 42% dos jovens desconhecem educação profissional"
+              link="https://www.metropoles.com/brasil/educacao-profissional/pesquisa-aponta-que-42-dos-jovens-desconhecem-educacao-profissional"
+              source="Fonte: SENAI"
             />
 
             <CardBox
               icon="../public/Vector.png"
-              title="Mais comum do que você pensa"
-              description="Mais de 57% de jovens estão indecisos ou não têm ideia sobre com que profissão seguir."
-              link="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
-              source="Fonte: TechRadar"
+              title="A maioria dos jovens estão pessimistas"
+              description="57% dos jovens formandos de 2025 estão pessimistas sobre o início de suas carreiras."
+              link="https://exame.com/carreira/57-dos-jovens-formandos-de-2025-estao-pessimistas-sobre-o-inicio-de-suas-carreiras-diz-pesquisa/"
+              source="Fonte: Exame"
               />
           </div>
         </section>
@@ -118,7 +120,7 @@ function App() {
         <section id='Sobre' className="container my-5">
           <div className="row align-items-center">
 
-            <div className="col-md-7">
+            <div className=" order-2 order-md-1 col-md-7">
               <h2 className='fw-bold fs-1'>Sobre o método</h2>
 
               <ul class="ms-3">
@@ -135,7 +137,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-md-5 text-center mb-4 mb-md-0">
+            <div className=" order-1 order-md-2 col-md-5 text-center mb-4 mb-md-0">
               <img
                 src="../public/ilustracao-menina.png"
                 alt="Ilustração de uma mulher negra com um caderno nas mãos fazendo anotações"
@@ -160,7 +162,7 @@ function App() {
             </div>
 
             <div className="col-md-7">
-              <h2 className='fw-bold fs-1'>O Proxímo Passo é para você que...</h2>
+              <h2 className='fw-bold fs-1'>A Proxíma Jornada é para você que...</h2>
 
               <ul class="ms-3">
                 <li class="fs-4 mb-2">Está terminando o ensino médio e não sabe qual profissão escolher.</li>
@@ -178,7 +180,55 @@ function App() {
           </div>
         </section>
 
+        <section className="container my-5">
+          <div className="row align-items-center">
+
+            <h2 className='fw-bold fs-1'>Perguntas frequentes (FAQ)</h2>
+
+              <Accordion
+                id="item1"
+                titulo="O que é essa solução?"
+                texto="É uma plataforma digital que ajuda jovens a descobrir seus interesses profissionais e encontrar cursos e oportunidades alinhadas ao seu perfil atravez de um teste vocacional. O objetivo é facilitar o primeiro passo no futuro do trabalho."
+              />
+
+              <Accordion
+                id="item2"
+                titulo="Como funciona o teste de interesses?"
+                texto="O usuário responde um mini-questionário simples e rápido. Com base nas respostas, o sistema identifica as áreas de afinidade e mostra sugestões de cursos e trilhas de aprendizado."
+              />
+
+              <Accordion
+                id="item3"
+                titulo="Preciso pagar para usar a plataforma?"
+                texto="Não. A plataforma é gratuita e oferece acesso a informações, perfis de interesse e recomendações iniciais de cursos, incluindo opções gratuitas."
+              />
+
+              <Accordion
+                id="item4"
+                titulo="Os cursos recomendados são confiáveis?"
+                texto="Sim. Selecionamos cursos de plataformas reconhecidas e instituições de ensino confiáveis, garantindo qualidade e segurança para o usuário."
+              />
+
+              <Accordion
+                id="item5"
+                titulo="A plataforma ajuda a encontrar emprego?"
+                texto="O foco principal é orientação e capacitação, ajudando o jovem a entender onde começar. No futuro, podem ser adicionados recursos relacionados ao mercado de trabalho, como vagas no likedin."
+              />
+
+              <Accordion
+                id="item6"
+                titulo="Por que devo usar essa plataforma?"
+                texto="Porque ela oferece orientação prática, rápida e acessível, algo que muitos jovens não recebem. Aqui, você encontra clareza sobre seus interesses e caminhos reais para começar sua carreira."
+              />
+
+          </div>
+        </section>
+
       </main>
+
+      <Footer></Footer>
+
+      
     </>
   )
 }

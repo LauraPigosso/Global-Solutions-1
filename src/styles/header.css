@@ -17,16 +17,20 @@
     border-bottom: 1px solid var(--cor-detalhes);
 }
 
+.navbar-toggler {
+  border-color: var(--cor-primaria);
+}
+
+.navbar-toggler-icon {
+  filter: invert(27%) sepia(70%) saturate(3500%) hue-rotate(245deg) brightness(85%) contrast(90%);
+}
+
 .link {
- color: var(--cor-texto-secundario);
+  color: var(--cor-texto-secundario);
 }
 
 .link:hover {
- color: var(--cor-primaria);
+  color: var(--cor-primaria);
 }
 
-@media (max-width: 1065px) {
-    .Navegacao {
-        display: none;
-    }
-}
+

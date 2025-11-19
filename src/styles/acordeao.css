@@ -1,0 +1,26 @@
+#root {
+  --cor-primaria: #6933D5;
+  --cor-secundario: #2C70D3;
+  --cor-texto-primario: #1E293B;
+  --cor-texto-secundario: #000000;
+
+  --cor-background-principal: #F6F6F6;
+  --cor-background-secundario: #F8F9FB;
+
+  --cor-detalhes: #cfcfcf;
+  --cor_sombra: #A6A6A6;
+
+  --radius: 30px
+}
+
+.acordeao {
+    padding: 8px;
+    border-bottom: 2px solid var(--cor-detalhes);
+}
+
+.accordion-button::after {
+  content: "+";
+  font-size: 40px;
+  margin-left: auto;
+  transition: transform 0.2s ease;
+}

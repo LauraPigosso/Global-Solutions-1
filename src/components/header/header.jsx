@@ -1,36 +1,61 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // IMPORTANTE para o menu funcionar
 import '../../styles/header.css';
 
 import Botaoprimario from '../botao_primario/botaoprimario';
 
 function Header() {
-
   return (
     <header className="header container-fluid py-3 shadow-sm bg-white">
-      <div className="container d-flex align-items-center justify-content-between">
+      <nav className="navbar navbar-expand-lg container">
 
-        <h2 className="fw-bold m-0">Logotipo</h2>
+        <a className="navbar-brand d-none d-lg-block" href="#inicio">
+          <img
+            src="../../public/Logo-icone.png"  
+            alt="Logotipo da Proxíma Jornada"
+            className="img-fluid"
+            style={{ height: "50px" }} 
+          />
+        </a>
 
-        <nav className='Navegacao'>
-          <ul className="nav gap-4">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="Menu"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse justify-content-end" id="menu">
+
+          <ul className="navbar-nav mx-auto gap-3 align-items-lg-center mt-3 mt-lg-0">
+
             <li className="nav-item">
-              <a className="link nav-link" href="#inicio">Início</a>
+              <a className="nav-link link" href="#inicio">Início</a>
             </li>
+
             <li className="nav-item">
-              <a className="link nav-link" href="#Instrucoes">Instruções</a>
+              <a className="nav-link link" href="#Instrucoes">Instruções</a>
             </li>
+
             <li className="nav-item">
-              <a className="link nav-link" href="#Dados">Dados do mercado</a>
+              <a className="nav-link link" href="#Dados">Dados do mercado</a>
             </li>
+
             <li className="nav-item">
-              <a className="link nav-link" href="#Sobre">Sobre nossa solução</a>
+              <a className="nav-link link" href="#Sobre">Sobre nossa solução</a>
             </li>
           </ul>
-        </nav>
+        </div>
+        
+        <div className="ms-lg-4 mt-3 mt-lg-0">
+          <Botaoprimario text="Faça o teste" />
+        </div>
 
-        <Botaoprimario text="Faça o teste"/>
-
-      </div>
+      </nav>
     </header>
   );
 }

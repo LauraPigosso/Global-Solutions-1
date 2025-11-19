@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 #root {
   --cor-primaria: #6933D5;
   --cor-secundario: #2C70D3;
@@ -13,8 +15,11 @@
   --radius: 30px
 }
 
+body {
+ font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
 .titulo-hero {
-  color: var(--cor-texto-principal);
   size: 60px;
 }
 
@@ -33,7 +38,7 @@ main::before {
   height: 350px;
   background: #D3B22C;
   filter: blur(120px);
-  opacity: 0.8;
+  opacity: 0.3;
   z-index: 0;
 }
 
@@ -41,13 +46,14 @@ main::before {
 main::after {
   content: "";
   position: absolute;
+  top: -10px;     
   right: -120px;
   width: 350px;
   height: 350px;
   background: #00FFCC;
   filter: blur(120px);
-  opacity: 0.8;
-  z-index: 0;
+  opacity: 0.2;
+  z-index: 0;  
 }
 
 /* Conteúdo fica por cima */
@@ -56,12 +62,4 @@ main::after {
   z-index: 10;
 }
 
-@media (max-width: 768px) {
-  .hero::before,
-  .hero::after {
-    width: 250px;
-    height: 250px;
-    filter: blur(100px);
-    opacity: 0.6;
-  }
-}
+
