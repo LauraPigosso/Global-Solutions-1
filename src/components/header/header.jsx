@@ -12,7 +12,7 @@ function Header() {
         <a className="navbar-brand d-none d-lg-block" href="#inicio">
           <img
             src="../../public/Logo-icone.png"  
-            alt="Logotipo da Proxíma Jornada"
+            alt="Logotipo da Proxíma Jornada. A logo é um icone de um livro aberto com setas saindo do meio do livro"
             className="img-fluid"
             style={{ height: "50px" }} 
           />

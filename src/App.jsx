@@ -86,7 +86,7 @@ function App() {
             <CardBox
                 icon="../public/Vector.png"
                 title="Mais comum do que você pensa"
-                description="82% dos jovens tem dificuldades em escolher uma carreira profissional"
+                descricaoicone="Icone de chapeu de formando"
                 link="https://blog.unigrancapital.com.br/82-dos-jovens-tem-dificuldades-em-escolher-uma-carreira-profissional/"
                 source="Fonte: CMOV"
             />
@@ -94,6 +94,7 @@ function App() {
             <CardBox
               icon="../public/Vector.png"
               title="19.8% dos jovens não estudam nem trabalham"
+              descricaoicone="Icone de chapeu de formando"
               description="19,8% dos jovens não estavam ocupados nem estudando nem trabalhando."
               link="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
               source="Fonte: IBGE"
@@ -102,6 +103,7 @@ function App() {
             <CardBox
               icon="../public/Vector.png"
               title="42% sem conhecimento de suas oportunidades"
+              descricaoicone="Icone de chapeu de formando"
               description="Pesquisa aponta que 42% dos jovens desconhecem educação profissional"
               link="https://www.metropoles.com/brasil/educacao-profissional/pesquisa-aponta-que-42-dos-jovens-desconhecem-educacao-profissional"
               source="Fonte: SENAI"
@@ -110,6 +112,7 @@ function App() {
             <CardBox
               icon="../public/Vector.png"
               title="A maioria dos jovens estão pessimistas"
+              descricaoicone="Icone de chapeu de formando"
               description="57% dos jovens formandos de 2025 estão pessimistas sobre o início de suas carreiras."
               link="https://exame.com/carreira/57-dos-jovens-formandos-de-2025-estao-pessimistas-sobre-o-inicio-de-suas-carreiras-diz-pesquisa/"
               source="Fonte: Exame"
