@@ -31,7 +31,7 @@ function Header() {
               src={logo_icone}
               alt="Logotipo da Próxima Jornada"
               className="img-fluid"
-              style={{ height: "50px" }}
+              style={{ height: "40%" }}
             />
           </a>
         </div>
@@ -42,7 +42,7 @@ function Header() {
             src={logo_icone}
             alt="Logotipo da Próxima Jornada"
             className="img-fluid"
-            style={{ height: "50px" }}
+            style={{ height: "80px" }}
           />
         </a>
 

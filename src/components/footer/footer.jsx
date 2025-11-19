@@ -15,7 +15,7 @@ export default function Footer() {
           <img
             src={logo_nome}
             alt="icone da Proxima Parada com o nome do projeto ao lado. O icone é um livro aberto com setas saindo do meio do livro"
-            style={{ width: "100px", height: "40px" }}
+            style={{ width: "30%", height: "30%" }}
           />
 
           <span className="text-muted fs-6">
