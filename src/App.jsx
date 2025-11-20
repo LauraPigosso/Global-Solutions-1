@@ -133,7 +133,7 @@ function App() {
                   title="42% sem conhecimento de oportunidades"
                   descricaoicone="Ícone de ponto de interrogação"
                   description="42% dos jovens desconhecem a educação profissional."
-                  link="https://www.metropoles.com/brasil/educacao-profissional/pesquisa"
+                  link="https://www.metropoles.com/brasil/educacao-profissional/pesquisa/aponta-que-42-dos-jovens-desconhecem-educacao-profissional"
                   source="Fonte: SENAI"
                 />
               </div>
@@ -144,7 +144,7 @@ function App() {
                   title="Pessimismo crescente"
                   descricaoicone="Ícone de maleta"
                   description="57% dos jovens formandos de 2025 estão pessimistas sobre sua carreira."
-                  link="https://exame.com/carreira/57-dos-jovens-formandos"
+                  link="https://exame.com/carreira/57-dos-jovens-formandos-de-2025-estao-pessimistas-sobre-o-inicio-de-suas-carreiras-diz-pesquisa/"
                   source="Fonte: Exame"
                 />
               </div>
@@ -201,7 +201,7 @@ function App() {
               title="42% sem conhecimento"
               descricaoicone="Ícone de ponto de interrogação"
               description="Uma pesquisa revela que 42% dos jovens desconhecem a educação profissional, o que evidencia a falta de acesso a informações sobre cursos técnicos"
-              link="https://www.metropoles.com/brasil/educacao-profissional/pesquisa"
+              link="https://www.metropoles.com/brasil/educacao-profissional/pesquisa/aponta-que-42-dos-jovens-desconhecem-educacao-profissional"
               source="Fonte: SENAI"
             />
 
@@ -210,7 +210,7 @@ function App() {
               title="Pessimismo crescente"
               descricaoicone="Ícone de maleta"
               description="Cerca de 57% dos jovens que se formam em 2025 estão pessimistas sobre o início das suas carreiras, refletindo incertezas sobre o mercado de trabalho"
-              link="https://exame.com/carreira/57-dos-jovens-formandos"
+              link="https://exame.com/carreira/57-dos-jovens-formandos-de-2025-estao-pessimistas-sobre-o-inicio-de-suas-carreiras-diz-pesquisa/"
               source="Fonte: Exame"
             />
 
