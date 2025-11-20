@@ -133,7 +133,7 @@ function App() {
                   title="42% sem conhecimento de oportunidades"
                   descricaoicone="Ícone de ponto de interrogação"
                   description="42% dos jovens desconhecem a educação profissional."
-                  link="https://www.metropoles.com/brasil/educacao-profissional/pesquisa/aponta-que-42-dos-jovens-desconhecem-educacao-profissional"
+                  link="https://www.metropoles.com/brasil/educacao-profissional/pesquisa-aponta-que-42-dos-jovens-desconhecem-educacao-profissional"
                   source="Fonte: SENAI"
                 />
               </div>
@@ -201,7 +201,7 @@ function App() {
               title="42% sem conhecimento"
               descricaoicone="Ícone de ponto de interrogação"
               description="Uma pesquisa revela que 42% dos jovens desconhecem a educação profissional, o que evidencia a falta de acesso a informações sobre cursos técnicos"
-              link="https://www.metropoles.com/brasil/educacao-profissional/pesquisa/aponta-que-42-dos-jovens-desconhecem-educacao-profissional"
+              link="https://www.metropoles.com/brasil/educacao-profissional/pesquisa-aponta-que-42-dos-jovens-desconhecem-educacao-profissional"
               source="Fonte: SENAI"
             />
 
